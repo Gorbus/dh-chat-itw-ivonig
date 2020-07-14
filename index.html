@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="chatWindow">
+        <div class="chatWindow__messages"></div>
+        <div class="chatWindow__toolbar">
+          <input class="chatWindow__nameInput" placeholder="Name" />
+          <input class="chatWindow__msgInput" placeholder="Message" />
+          <button class="sendButton">send</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

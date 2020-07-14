@@ -1,0 +1,21 @@
+@media screen and (max-width: 420px) {
+  .chatWindow__toolbar {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .chatWindow__nameInput,
+  .chatWindow__msgInput {
+    width: 100%;
+    margin: 3px 0;
+    min-height: 38px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: auto;
+  }
+  .chatWindow__receivedMsg {
+    flex-direction: column;
+  }
+  .sendButton {
+    margin: 3px 0;
+  }
+}
